@@ -1,8 +1,8 @@
-import tkinter as tk
-from ui.main_gui import FoodCalorieTracker
+class Meal:
 
-root = tk.Tk()
+    def __init__(self, date, meal_type, food, calories):
 
-app = FoodCalorieTracker(root)
-
-root.mainloop()
+        self.date = date
+        self.meal_type = meal_type
+        self.food = food
+        self.calories = calories
